@@ -10,7 +10,7 @@
 #   spin.js
 #
 
-$ = jQuery
+$ = @jQuery or @Zepto
 
 # The powerhouse main class
 class RemoteModal
