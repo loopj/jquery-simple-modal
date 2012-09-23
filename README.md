@@ -1,20 +1,24 @@
-jQuery Remote Modal
-===================
+jQuery Simple Modal: Unobtrusive Modal Dialog
+=============================================
 
-Load a modal dialog on your pages with clean unobtrusive javascript.
+SimpleModal is a jQuery plugin for loading a modal dialog on your pages with
+clean unobtrusive javascript.
+
+It has no external dependencies other than jQuery, and you don't need to write
+a single line of JavaScript to get it to work.
 
 
-Usage
------
+How to Use
+----------
 
 Include the javascript file in your page:
 
-    <script src="jquery.remote-modal.js"></script>
+    <script src="simple-modal.js"></script>
 
 Modal-ize any links you like:
 
-    <a href="some-page.html" data-remote-modal="true">Open a modal</a>
+    <a href="some-page.html" data-modal="true">Open a modal</a>
 
 You can also create a modal out of page anchor links:
 
-    <a href="#some-id" data-remote-modal="true">Open a modal</a>
+    <a href="#some-id" data-modal="true">Open a modal</a>
